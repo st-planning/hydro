@@ -1,0 +1,328 @@
+.title {
+  color: #02cc;
+}
+
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header-container {
+  width: 1400px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.header-logo {
+  width: 100px;
+  margin-top: 15px;
+}
+
+/*ヘッダー以降の下地*/
+.SNS-wrapper{
+  height:1390px;
+  padding-top: 65px;
+  background-color:#f7f7f7;
+}
+
+/*SNSDashboard部分*/
+.SNS-number-container{
+  /*background-color: violet;*/
+  width: 1170px;
+  height: 442px;
+  margin: 0 auto;
+}
+
+.SNS {
+  padding-top:17px;
+  width:950px;
+  margin:0 auto;
+}
+/*SNSDashboard部分ここまで*/
+
+/* widthを調節すると白枠が右から短くなる、白枠のサイズ */
+.SNS-container-Google{
+  border: 1px solid #337ab7;
+  background-color: #337ab7;
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+  width:800px;
+  height: 120px;
+  margin-left: 135px;
+}
+
+.SNS-container-Instagram{
+  border: 1px solid #5cb85c;
+  background-color: #5cb85c;
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+  width:800px;
+  height: 120px;
+  margin-left: 135px;
+  margin-top: 20px;
+}
+
+.SNS-container-Blog{
+  border: 1px solid #f0ad4e;
+  background-color: #f0ad4e;
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+  width:800px;
+  height: 120px;
+  margin-left: 135px;
+  margin-top: 20px;
+}
+
+/*左側アイコン部分*/
+.SNS-container-left {
+  width: 122px;
+  height: 122px;
+  margin-left: 15px;
+  margin-top: 0px;
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+  float: left;
+  background-color: #337ab7;
+}
+
+.SNS-container-left-two {
+  width: 122px;
+  height: 122px;
+  margin-left: 15px;
+  margin-top: 20px;
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+  float: left;
+  background-color: #5cb85c;
+}
+
+.SNS-container-left-three {
+  width: 122px;
+  height: 122px;
+  margin-left: 15px;
+  margin-top: 20px;
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+  float: left;
+  background-color: #f0ad4e;
+}
+/*左側アイコン部分ここまで*/
+
+/*一番上の緑の部分、数値を取得する部分くさい*/
+.SNS-container-two{
+  width:900px;
+  padding: 25px 0 0 10px;
+  margin-left: 50px;
+}
+
+.SNS-icon {
+  float: left;
+  width: 78px;
+  padding: 20px 0 0 20px;
+
+}
+
+.counts{
+  float:left;
+  width:20%;
+  z-index: 10;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.counter {
+  font-size: 35px;
+  margin: 0 0 ;
+}
+
+.counts-item{
+  font-size: 13px;
+  margin: 0 0 -12px 0;
+  font-weight: bold;
+}
+
+.counts-month {
+  font-size: 10px;
+  margin: -5px 0 0 0 ;
+}
+
+.Instagram {
+  margin-top: 20px;
+}
+
+.Blog {
+  margin-top: 20px;
+}
+
+.BlogIcon {
+  width: 94px;
+  float: left;
+  padding: 12px 0 0 10px;
+}
+
+.countnumber {
+  font-family: "Futura";
+}
+
+.commentForm {
+  /*background-color: green;*/
+  width: 1170px;
+  height: 459px;
+  margin: 0 auto;
+}
+
+.commentFormTwo {
+  /*background-color:greenyellow;*/
+  width: 922px;
+  height: 459px;
+  margin: 0 auto;
+}
+
+.comment-heading {
+  font-size: 15px;
+  padding: 15px 0 12px 15px;
+  color:#5f5d60;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.commentsCountainer {
+  width:922px;
+  height:410px;
+  background-color: white;
+  border-radius: 3px;
+  overflow: scroll;
+}
+
+.commentData {
+  z-index: 10;
+  width:922px;
+  height:40px;
+  border-bottom:1px solid #dee7ec;
+}
+
+.comments {
+  font-size: 13px;
+  float: left;
+  padding: 10px;
+  color: #b3aeb5;
+}
+
+.btn {
+  padding:4px 16px;
+  font-size: 13px;
+  color:white;
+  display:inline-block;
+  opacity:0.8;
+  float: right;
+  margin: 6px 6px 0 0;
+  border-radius: 3px;
+}
+
+.good {
+  background-color:#239b76;
+}
+
+.bad {
+  background-color:#239b76;
+}
+
+.instaForm {
+  /*background-color: yellow;*/
+  width: 1170px;
+  height: 472px;
+  margin: 0 auto;
+}
+
+.instaFormTwo {
+  /*background-color:burlywood;*/
+  width: 922px;
+  height: 459px;
+  margin: 0 auto;
+}
+
+.instaheading {
+  font-size: 11px;
+  padding: 10px 0 0px 15px;
+  color:#5f5d60;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.instacontainer {
+  width:922px;
+  height:410px;
+  background-color: white;
+  border-radius: 3px;
+}
+
+.instacontainer h2 {
+  font-size: 15px;
+  padding: 10px 0 0px 60px;
+  color:#5f5d60;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+textarea {
+  height: 200px;
+  width: 800px;
+  margin: -5px 0 0 55px;
+}
+
+.btn2 {
+  padding:7px 25px;
+  font-size: 13px;
+  color:white;
+  display:inline-block;
+  opacity:0.8;
+  float: left;
+  margin: 6px 6px 0 55px;
+  border-radius: 3px;
+  background-color:#239b76;
+}
+
+.dayselect {
+  margin-top: 52px;
+  margin-left: -122px;
+  padding: 5px 5px;
+}
+
+.btn3 {
+  padding:7px 25px;
+  font-size: 13px;
+  color:white;
+  display:inline-block;
+  opacity:0.8;
+  float: left;
+  margin: 13px 6px 0 55px;
+  border-radius: 3px;
+  background-color:#239b76;
+}
+
+footer {
+  height: 67px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+}
+
+.footercopy h4 {
+  color: white;
+  float: right;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  padding: 5px 15px 0 0;
+}
